@@ -19,6 +19,7 @@
         nixd.enable = true;
 
         tsserver.enable = true;
+        eslint.enable = true;
         tailwindcss.enable = true;
 
         kotlin-language-server.enable = true;
