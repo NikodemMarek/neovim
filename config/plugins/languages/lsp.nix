@@ -18,7 +18,12 @@
       servers = {
         nixd.enable = true;
 
-        tsserver.enable = true;
+        tsserver = {
+          enable = true;
+          onAttach.function = ''
+            client.server_capabilities.documentFormattingProvider = false
+          '';
+        };
         eslint.enable = true;
         tailwindcss.enable = true;
 
