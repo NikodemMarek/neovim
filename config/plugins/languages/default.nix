@@ -1,11 +1,11 @@
 {
   imports = [
     ./lsp.nix
-    ./none-ls.nix
+    ./conform-nvim.nix
     ./luasnip.nix
 
     ./markdown.nix
-    ./nvim-jdtls.nix
     ./rust
+    ./java
   ];
 }
