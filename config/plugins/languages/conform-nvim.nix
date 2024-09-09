@@ -6,8 +6,8 @@
   plugins.conform-nvim = {
     enable = true;
     settings = {
-      format_on_save.lsp_format = "first";
-      default_format_opts.lsp_format = "first";
+      format_on_save.lsp_format = "last";
+      default_format_opts.lsp_format = "last";
       formatters_by_ft = {
         nix = [
           "alejandra"
