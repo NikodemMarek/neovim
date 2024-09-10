@@ -12,6 +12,7 @@
     ./plugins/auto-session.nix
     ./plugins/comment.nix
     ./plugins/dap.nix
+    ./plugins/flash.nix
     ./plugins/hbac.nix
     ./plugins/mini.nix
     ./plugins/nvim-cmp.nix
