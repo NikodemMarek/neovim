@@ -8,7 +8,7 @@
     ./plugins/languages
     ./plugins/ui
 
-    ./plugins/autoread/autoread.nix
+    ./plugins/autorefresh.nix
     ./plugins/auto-session.nix
     ./plugins/comment.nix
     ./plugins/dap.nix
