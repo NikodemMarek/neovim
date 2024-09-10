@@ -17,6 +17,7 @@
     ./plugins/nvim-cmp.nix
     ./plugins/oil.nix
     ./plugins/overseer.nix
+    ./plugins/surround.nix
     ./plugins/stay-centered.nix
     ./plugins/telescope.nix
     ./plugins/toggleterm.nix
