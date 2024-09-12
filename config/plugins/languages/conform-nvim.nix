@@ -9,9 +9,6 @@
       format_on_save.lsp_format = "prefer";
       default_format_opts.lsp_format = "prefer";
       formatters_by_ft = {
-        nix = [
-          "alejandra"
-        ];
         javascript = {
           __unkeyed-1 = "biome";
           stop_after_first = true;
@@ -42,9 +39,6 @@
         ];
       };
       formatters = {
-        alejandra = {
-          command = lib.getExe pkgs.alejandra;
-        };
         biome = {
           command = lib.getExe pkgs.biome;
         };

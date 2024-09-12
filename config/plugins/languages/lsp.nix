@@ -1,4 +1,8 @@
 {
+  pkgs,
+  lib,
+  ...
+}: {
   plugins = {
     lsp = {
       enable = true;
@@ -16,7 +20,12 @@
       };
 
       servers = {
-        nixd.enable = true;
+        nixd = {
+          enable = true;
+          settings = {
+            formatting.command = ["${lib.getExe pkgs.alejandra}"];
+          };
+        };
 
         tsserver = {
           enable = true;
