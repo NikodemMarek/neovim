@@ -20,6 +20,7 @@
         fzf-native.enable = true;
         media-files.enable = true;
         frecency.enable = true;
+        ui-select.enable = true;
       };
     };
   };
