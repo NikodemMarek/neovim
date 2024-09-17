@@ -17,7 +17,7 @@
       mode = "n";
       key = "<leader>dd";
       action = "<cmd>Bdelete<cr>";
-      options.desc = "Buffer";
+      options.desc = "Close buffer";
     }
   ];
 }

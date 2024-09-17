@@ -10,6 +10,10 @@
         {
           __unkeyed-1 = "<leader>d";
           group = "Close";
+          icon = {
+            icon = "󰈆";
+            color = "red";
+          };
         }
         {
           __unkeyed-1 = "<leader>q";
@@ -28,12 +32,12 @@
           group = "Debugging";
         }
         {
-          __unkeyed-1 = "<leader>t";
-          group = "Terminal";
-        }
-        {
           __unkeyed-1 = "<leader>a";
           group = "AI";
+        }
+        {
+          __unkeyed-1 = "<leader>g";
+          group = "Git";
         }
       ];
     };

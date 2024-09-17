@@ -115,7 +115,7 @@
       mode = "n";
       key = "<leader>dw";
       action = "<cmd>close<cr>";
-      options.desc = "Window";
+      options.desc = "Close window";
     }
 
     # Indent
