@@ -20,20 +20,11 @@
         fzf-native.enable = true;
         media-files.enable = true;
         frecency.enable = true;
-        ui-select.enable = true;
       };
     };
   };
 
   keymaps = [
-    # Lsp symbols
-    {
-      mode = "n";
-      key = "<leader>ls";
-      action = "<cmd>Telescope lsp_references<cr>";
-      options.desc = "Document symbols";
-    }
-
     # Search in buffer
     {
       mode = "n";

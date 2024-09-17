@@ -20,10 +20,6 @@
           group = "Search";
         }
         {
-          __unkeyed-1 = "<leader>l";
-          group = "LSP";
-        }
-        {
           __unkeyed-1 = "<leader>u";
           group = "UI";
         }
