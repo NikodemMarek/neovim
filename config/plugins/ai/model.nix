@@ -5,8 +5,8 @@
       src = pkgs.fetchFromGitHub {
         owner = "gsuuon";
         repo = "model.nvim";
-        rev = "42b09083bfd88f45a0fdd60d4c29de3a8bcb79b5";
-        hash = "sha256-HtUiC2OGbeyEkB3dMwBeSfway368jNFg5d7jaPkE6T8=";
+        rev = "main";
+        hash = "sha256-fRYDU4HuFFDdZaaNRbHZdXSbTxzIZb8h3KAA5WhBqVo=";
       };
     })
   ];

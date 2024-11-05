@@ -15,7 +15,7 @@
           };
         };
 
-        tsserver = {
+        ts_ls = {
           enable = true;
           onAttach.function = ''
             client.server_capabilities.documentFormattingProvider = false
@@ -24,7 +24,7 @@
         eslint.enable = true;
         tailwindcss.enable = true;
 
-        kotlin-language-server.enable = true;
+        kotlin_language_server.enable = true;
 
         lemminx.enable = true;
         jsonls.enable = true;
@@ -33,7 +33,7 @@
 
         dockerls.enable = true;
 
-        typst-lsp.enable = true;
+        typst_lsp.enable = true;
       };
     };
 

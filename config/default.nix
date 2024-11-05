@@ -18,9 +18,9 @@
     ./plugins/mini.nix
     ./plugins/nvim-cmp.nix
     ./plugins/oil.nix
-    ./plugins/surround.nix
     ./plugins/stay-centered.nix
     ./plugins/telescope.nix
     ./plugins/treesitter.nix
+    ./plugins/vim-surround.nix
   ];
 }

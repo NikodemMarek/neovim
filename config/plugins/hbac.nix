@@ -5,8 +5,8 @@
       src = pkgs.fetchFromGitHub {
         owner = "axkirillov";
         repo = "hbac.nvim";
-        rev = "30dcd055611f6ba6ec37aa2a1c038e211521bd39";
-        hash = "sha256-Jd+KyoP2Ire3vBH8CzLpyWlYBWTH5k8VZAHOSsyaZ2g=";
+        rev = "main";
+        hash = "sha256-A+C9N7xorS7DV0w8N5TjyD7OvWdxUQ4PJaKW3kwkQS0=";
       };
     })
   ];

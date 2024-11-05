@@ -4,7 +4,7 @@
     ./conform-nvim.nix
     ./luasnip.nix
 
-    ./markdown.nix
+    ./markview.nix
     ./rust
     ./java
   ];

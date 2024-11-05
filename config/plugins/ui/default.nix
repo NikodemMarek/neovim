@@ -7,6 +7,7 @@
     ./noice.nix
     ./lualine.nix
     ./rainbow-delimiters.nix
+    ./web-devicons.nix
     ./which-key.nix
   ];
 }
