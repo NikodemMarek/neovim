@@ -46,6 +46,12 @@
       action = "<cmd>Telescope jumplist<cr>";
       options.desc = "Open jumplist";
     }
+    {
+      mode = "n";
+      key = "<leader>sm";
+      action = "<cmd>Telescope marks<cr>";
+      options.desc = "Open marks";
+    }
 
     # Search
     {
