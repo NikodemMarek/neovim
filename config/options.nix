@@ -16,6 +16,9 @@
     relativenumber = true;
 
     wrap = true;
+    breakindent = true;
+    linebreak = true;
+
     foldcolumn = "0";
     foldlevel = 99;
     foldlevelstart = 99;
