@@ -6,7 +6,7 @@
         owner = "gsuuon";
         repo = "model.nvim";
         rev = "main";
-        hash = "sha256-fRYDU4HuFFDdZaaNRbHZdXSbTxzIZb8h3KAA5WhBqVo=";
+        hash = "sha256-LnLJGWmRhj4Oj1kvyA7DBIjwEyutskFxKu6vkKhSaTc=";
       };
     })
   ];
