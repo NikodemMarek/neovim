@@ -14,7 +14,6 @@
     ./plugins/dap.nix
     ./plugins/flash.nix
     ./plugins/image.nix
-    ./plugins/hbac.nix
     ./plugins/mini.nix
     ./plugins/nvim-cmp.nix
     ./plugins/oil.nix
