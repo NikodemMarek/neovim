@@ -21,6 +21,12 @@
       action = "<cmd>noa w<cr>";
       options.desc = "Write without autocommands";
     }
+    {
+      mode = "n";
+      key = "<leader>fg";
+      action = "<cmd>noa wa<cr>";
+      options.desc = "Write all without autocommands";
+    }
 
     # Quit actions
     {
