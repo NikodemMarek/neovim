@@ -1,49 +1,45 @@
 {
   plugins = {
-    dap-lldb.enable = true;
-
     dap-ui = {
       enable = true;
-      settings = {
-        layouts = [
-          {
-            elements = [
-              {
-                id = "console";
-                size = 0.25;
-              }
-              {
-                id = "breakpoints";
-                size = 0.25;
-              }
-              {
-                id = "repl";
-                size = 0.25;
-              }
-              {
-                id = "watches";
-                size = 0.25;
-              }
-            ];
-            position = "left";
-            size = 40;
-          }
-          {
-            elements = [
-              {
-                id = "stacks";
-                size = 0.5;
-              }
-              {
-                id = "scopes";
-                size = 0.5;
-              }
-            ];
-            position = "bottom";
-            size = 10;
-          }
-        ];
-      };
+      settings.layouts = [
+        {
+          elements = [
+            {
+              id = "console";
+              size = 0.25;
+            }
+            {
+              id = "breakpoints";
+              size = 0.25;
+            }
+            {
+              id = "repl";
+              size = 0.25;
+            }
+            {
+              id = "watches";
+              size = 0.25;
+            }
+          ];
+          position = "left";
+          size = 40;
+        }
+        {
+          elements = [
+            {
+              id = "stacks";
+              size = 0.5;
+            }
+            {
+              id = "scopes";
+              size = 0.5;
+            }
+          ];
+          position = "bottom";
+          size = 10;
+        }
+      ];
     };
   };
 

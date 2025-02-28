@@ -1,5 +1,9 @@
-{
-  imports = [
-    ./nvim-jdtls.nix
-  ];
+{pkgs, ...}: {
+  plugins.java = {
+    enable = true;
+
+    settings = {
+      jdtls = pkgs.jdt-language-server;
+    };
+  };
 }

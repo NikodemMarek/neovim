@@ -2,7 +2,7 @@
   plugins.markview = {
     enable = true;
     settings = {
-      hybrid_modes = ["n"];
+      preview.hybrid_modes = ["n"];
     };
   };
 }
