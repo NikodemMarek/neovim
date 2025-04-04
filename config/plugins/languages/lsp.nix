@@ -34,8 +34,6 @@
         pylsp.enable = true;
 
         dockerls.enable = true;
-
-        typst_lsp.enable = true;
       };
     };
 

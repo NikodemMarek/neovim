@@ -1,9 +1,10 @@
 {
   plugins = {
-    dap = {
+    dap-lldb.enable = true;
+
+    dap-ui = {
       enable = true;
-      extensions.dap-ui = {
-        enable = true;
+      settings = {
         layouts = [
           {
             elements = [
