@@ -7,9 +7,7 @@
     /*
     lua
     */
-    ''
-      os.getenv("HOME") .. "/.cache/jdtls/workspace/" .. vim.fn.fnamemodify(jdtls.setup.find_root({ "pom.xml", ".git", ".gradle", "gradlew" }), ":p:h:t")
-    '';
+    ''os.getenv("HOME") .. "/.cache/jdtls/workspace/" .. vim.fn.fnamemodify(vim.fs.root(0, { "pom.xml", ".git", ".gradle", "gradlew" }), ":p:h:t")'';
 in {
   plugins.jdtls = {
     enable = true;
