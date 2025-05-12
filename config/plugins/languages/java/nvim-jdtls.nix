@@ -36,6 +36,7 @@ in {
         (lib.nixvim.mkRaw jdtlsDataPath)
       ];
       init_options.bundles = [
+        ./com.microsoft.java.debug.plugin-0.53.2.jar
       ];
       java = {
         signatureHelp.enabled = true;
