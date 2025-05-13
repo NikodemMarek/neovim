@@ -5,6 +5,7 @@
     ./luasnip.nix
 
     ./markview.nix
+    ./cpp
     ./rust
     ./java
   ];

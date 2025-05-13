@@ -26,8 +26,6 @@
 
         kotlin_language_server.enable = true;
 
-        clangd.enable = true;
-
         lemminx.enable = true;
         jsonls.enable = true;
 
