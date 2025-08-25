@@ -10,19 +10,23 @@
       default_format_opts.lsp_format = "prefer";
       formatters_by_ft = {
         javascript = {
-          __unkeyed-1 = "biome";
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
           stop_after_first = true;
         };
         typescript = {
-          __unkeyed-1 = "biome";
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
           stop_after_first = true;
         };
         html = {
-          __unkeyed-1 = "biome";
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
           stop_after_first = true;
         };
         css = {
-          __unkeyed-1 = "biome";
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
           stop_after_first = true;
         };
         python = ["black"];
