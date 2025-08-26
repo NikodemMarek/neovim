@@ -15,7 +15,7 @@
     number = true;
     relativenumber = true;
 
-    wrap = true;
+    wrap = false;
     breakindent = true;
     linebreak = true;
 
