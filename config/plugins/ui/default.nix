@@ -1,6 +1,5 @@
 {
   imports = [
-    ./bufdelete.nix
     ./cursorline.nix
     ./dressing.nix
     ./highlight.nix

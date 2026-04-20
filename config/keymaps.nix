@@ -5,18 +5,6 @@
     # Write actions
     {
       mode = "n";
-      key = "<leader>ff";
-      action = "<cmd>w<cr>";
-      options.desc = "Write";
-    }
-    {
-      mode = "n";
-      key = "<leader>fa";
-      action = "<cmd>wa<cr>";
-      options.desc = "Write all";
-    }
-    {
-      mode = "n";
       key = "<leader>fn";
       action = "<cmd>noa w<cr>";
       options.desc = "Write without autocommands";
@@ -26,20 +14,6 @@
       key = "<leader>fg";
       action = "<cmd>noa wa<cr>";
       options.desc = "Write all without autocommands";
-    }
-
-    # Quit actions
-    {
-      mode = "n";
-      key = "<leader>qq";
-      action = "<cmd>q<cr>";
-      options.desc = "Quit";
-    }
-    {
-      mode = "n";
-      key = "<leader>qa";
-      action = "<cmd>qa!<cr>";
-      options.desc = "Quit all";
     }
 
     # Navigate windows
@@ -107,21 +81,13 @@
     }
     {
       mode = "n";
-      key = "<c-left>";
+      key = "<c-right>";
       action = "<cmd>vertical resize +2<cr>";
     }
     {
       mode = "n";
-      key = "<c-right>";
+      key = "<c-left>";
       action = "<cmd>vertical resize -2<cr>";
-    }
-
-    # Close window
-    {
-      mode = "n";
-      key = "<leader>dw";
-      action = "<cmd>close<cr>";
-      options.desc = "Close window";
     }
 
     # Indent
@@ -144,14 +110,6 @@
       key = "<leader>ur";
       action = "<cmd>nohl<cr>";
       options.desc = "Clear highlights";
-    }
-
-    # Exit terminal mode
-    {
-      mode = "t";
-      key = "<esc>";
-      action = "<c-\\><c-n>";
-      options.desc = "Exit terminal mode";
     }
   ];
 }
